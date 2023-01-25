@@ -26,7 +26,8 @@
   </head>
   <body>
     <!-- As a heading -->
-    <div class="container-fluid" id="header-div" style="background-image: url('./assets/peaches_s_two.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;height:500px;width:100%">
+    <div class="container-fluid" id="header-div" style="background-image: url('./assets/peaches_s_two.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;width:100%">
+      <div class="row">
       <nav class="navbar navbar-expand-lg" style="background-color: transparent;">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseElement" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,21 +35,27 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapseElement">
             <div class="navbar-nav" style="display: flex;flex: 1;font-family: 'IM Fell Double Pica';font-size: 20px;">
-                <a class="nav-item nav-link active" style="flex: 1; text-align: center;" href="#"> our story</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#">date</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#">details</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;font-size: 2rem;" href="#">sarah & sam</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#">accomodations</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#">photos</a>
-                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#">faq</a>
+                <a class="nav-item nav-link active" style="flex: 1; text-align: center;" href="#wedding-our-story">our story</a>
+                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#wedding-date">date</a>
+                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#wedding-details">details</a>
+                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#wedding-accomodations">accomodations</a>
+                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#wedding-photos">photos</a>
+                <a class="nav-item nav-link" style="flex: 1;text-align: center;" href="#wedding-faq">faq</a>
             </div>
           </div>
         </div>
       </nav>
     </div>
+    <!-- should the padding be determined via a calculation? -->
+      <div class="row" style="font-family: 'IM Fell Double Pica', serif;padding-top: 40px;padding-bottom: 102px;">
+        <div class="col-4"></div>
+        <div class="col-4" style="text-align: center;font-size: 5rem;">sarah & sam</div>
+        <div class="col-4"></div>
+      </div>
+    </div>
     <div class="container-fluid" style="background-color: #f5dfce;padding-top: 100px;padding-bottom: 100px;font-family: 'IM Fell Double Pica', serif;text-align: center;">
       <div class="row">
-        <h1>our story</h1>
+        <h1 id="wedding-our-story">our story</h1>
       </div>
       <div class="row">
         <h4 style="color: #1897c4;margin-top: 20px; margin-bottom: 20px;">before</h4>
@@ -91,11 +98,11 @@
         <div class="col-2 col-lg-4"></div>
       </div>
       <div class="row" style="margin-top: 150px;">
-        <h1>date</h1>
+        <h1 id="wedding-date">date</h1>
         <p style="font-size: 2rem;">Saturday, November 18, 2023</p>
       </div> 
       <div class="row" style="margin-top: 150px; text-align: center;">
-        <h1>wedding details</h1>
+        <h1 id="wedding-details">wedding details</h1>
         <h4 style="color: #1897c4;margin-top: 50px; margin-bottom: 50px;">welcome to atlanta!</h4>
         <p></p>
         <h4 style="color: #1897c4;margin-top: 50px; margin-bottom: 50px;">ceremony & reception</h4>
@@ -106,13 +113,13 @@
         <p>check back in for details (:</p>
       </div>
       <div class="row" style="margin-top: 150px;">
-        <h1>accomodations</h1>
+        <h1 id="wedding-accomodations">accomodations</h1>
       </div>
       <div class="row" style="margin-top: 150px;">
-        <h1>photos</h1>
+        <h1 id="wedding-photos">photos</h1>
       </div>
       <div class="row" style="margin-top: 150px;">
-        <h1>faq</h1>
+        <h1 id="wedding-faq">faq</h1>
       </div>
     </div>
     <script
