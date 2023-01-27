@@ -14,7 +14,13 @@
 .gridImg{
   margin-bottom: 20px;
 }
-/* .body-carousel {
-  height: 100px;
-  width: 100%;
-} */
+
+.sam-and-sarah {
+  font-size: 5rem;
+}
+
+@media (max-width:500px) {
+  .sam-and-sarah {
+    font-size: 50px;
+  }
+}
