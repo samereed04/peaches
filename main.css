@@ -19,8 +19,37 @@
   font-size: 5rem;
 }
 
+.faqA {
+  text-align: left;
+}
+
+.faqQ {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.faqRow {
+  padding-top:50px;
+  font-size: 20px;
+}
+
 @media (max-width:500px) {
   .sam-and-sarah {
     font-size: 50px;
+  }
+}
+
+@media(max-width:400px) {
+  .faqQ {
+    padding-left:10%;
+  }
+  .faqA {
+    padding-left:10%;
+  }
+  .gridImg {
+    margin-bottom: 8px;
+  }
+  .imgCol {
+    padding:5px;
   }
 }
