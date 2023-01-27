@@ -4,3 +4,17 @@
   padding-top: 50px;
   text-align: center;
 }
+
+.photoContainer {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+}
+
+.gridImg{
+  margin-bottom: 20px;
+}
+/* .body-carousel {
+  height: 100px;
+  width: 100%;
+} */
