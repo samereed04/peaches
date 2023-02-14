@@ -33,6 +33,11 @@
   font-size: 20px;
 }
 
+.buttonA {
+  color:white;
+  text-decoration: none;
+}
+
 @media (max-width:500px) {
   .sam-and-sarah {
     font-size: 50px;
